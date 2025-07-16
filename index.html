@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Font Awesome 6 Free -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-u4dHfOHkUjFeOt+uzfjPMGlBxxqFzvjfmuKcO3FjfdUqD+2bRUf57K+EwWygwOGgZ5rC7NJDQK7YlQfUpx1Kug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>Naijakitchen</title>
+</head>
+<body>
+   <header class="header">
+  <div class="logo">Naija <span>Kitchen</span></div>
+
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <a href="#order" class="btn-order">  <i class="bi bi-telephone-fill"></i>
+  Order Now</a>
+</header>
+
+
+     <main>
+     <section id="home" class="home-section">
+     <div class="home-text">
+    <h1>Welcome to Naija Kitchen</h1>
+     <p>Delicious Jollof, Spicy Suya, and more — delivered to your doorstep!</p>
+    <a href="#menu" class="btn"> View Menu</a>
+    <a href="#order" class="btn secondary"> 
+ Order Now</a>
+   </div>
+  </div>
+
+       <div class="food1">
+        <img src="/images/food1.jpg" alt="">
+       </div>  
+  </div>
+  </section>
+<section class="menu-section" id="menu">
+      <h2>Our Menu</h2>
+  <p>Delicious local meals, freshly prepared daily. </p>
+
+  <div class="menu-grid">
+    <div class="menu-item">
+      <img src="/images/egunsi.jpg" alt="egunsi" />
+      <h4>semo&egunsi</h4>
+      <p>Served with chicken and panla fish</p>
+      <span>₦2,500</span>
+      <a href="#order" class="btn">Order</a>
+    </div>
+
+    <div class="menu-item">
+      <img src="/images/amala.jpg" alt="amala" />
+      <h4>Amala</h4>
+      <p>With gbegiri & ewedu with assorted meat</p>
+      <span>₦3,000</span>
+      <a href="#order" class="btn">Order</a>
+    </div>
+     <div class="menu-item">
+      <img src="/images/goatmeat.jpg" alt="goat peppersoup" />
+      <h4>pepper soup</h4>
+      <p>Assorted Meat</p>
+      <span>₦3,000</span>
+      <a href="#order" class="btn">Order</a>
+    </div>
+     <div class="menu-item">
+      <img src="/images/white.jpg" alt="Rice " />
+      <h4>Rice & stew</h4>
+      <p>served with planatain</p>
+      <span>₦3,000</span>
+      <a href="#order" class="btn">Order</a>
+    </div>
+     <div class="menu-item">
+      <img src="/images/pasta.jpg" alt="african food" />
+      <h4>Pasta</h4>
+      <p>served with plantain & chicken</p>
+      <span>₦3,000</span>
+      <a href="#order" class="btn">Order</a>
+    </div>
+     <div class="menu-item">
+      <img src="/images/plantain.jpg" alt="plantain" />
+      <h4>Indomie</h4>
+      <p>with planain and egg with chicken</p>
+      <span>₦3,500</span>
+      <a href="#order" class="btn">Order</a>
+    </div>
+</section>
+
+
+
+
+   <section id="about" class="about-section">
+  <div class="about-content">
+    <h2>About Us</h2>
+    <p>At Naija Kitchen, we serve the taste of home. Whether it's Jollof rice, egusi soup, or spicy suya, our meals are prepared with love, tradition, and premium ingredients.</p>
+    
+    <ul class="highlights">
+      <li>🍲 Fresh, local ingredients</li>
+      <li>👨🏽‍🍳 Family recipes passed down generations</li>
+      <li>🚀 Fast, hot delivery in your area</li>
+    </ul>
+
+    <a href="#menu" class="btn">View Our Menu</a>
+  </div>
+
+  <div class="about-image">
+    <img src="/images/chef gang.jpg" alt="Our Kitchen">
+  </div>
+</section>
+
+
+<section id="gallery" class="gallery-section">
+  <h2>Food Gallery</h2>
+  <p>Take a look at some of our customer favorites!</p>
+
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="soups">Soups</button>
+    <button class="filter-btn" data-category="drinks">Drinks</button>
+    <button class="filter-btn" data-category="snacks">Snacks</button>
+  </div>
+
+  <!-- Gallery Grid -->
+  <div class="gallery-grid">
+    <div class="gallery-item" data-category="soups">
+      <img src="/images/egunsi.jpg" alt="Egusi Soup">
+      <p>Egusi Soup</p>
+    </div>
+
+    <div class="gallery-item" data-category="soups">
+      <img src="/images/eforiro.jpg" alt="Efo Riro">
+      <p>Efo Riro</p>
+    </div>
+    <div class="gallery-item" data-category="soups">
+      <img src="/images/kika fish.jpg" alt="Efo Riro">
+      <p>Efo Riro</p>
+    </div>
+    <div class="gallery-item" data-category="soups">
+      <img src="/images/pepersoup.jpg" alt="Efo Riro">
+      <p>Efo Riro</p>
+    </div>
+
+    <div class="gallery-item" data-category="drinks">
+      <img src="/images/zobo.jpg" alt="Zobo Drink">
+      <p>Zobo Drink</p>
+    </div>
+     <div class="gallery-item" data-category="drinks">
+      <img src="/images/drink1.jpg" alt="Zobo Drink">
+      <p>mixer</p>
+    </div>
+     <div class="gallery-item" data-category="drinks">
+      <img src="/images/drnk2.jpg" alt="Zobo Drink">
+      <p>bella juice</p>
+    </div>
+     <div class="gallery-item" data-category="drinks">
+      <img src="/images/drink3.jpg" alt="Zobo Drink">
+      <p>Cocktails</p>
+    </div>
+
+    <div class="gallery-item" data-category="snacks">
+      <img src="/images/puff.jpg" alt="Puff Puff">
+      <p>Puff Puff</p>
+    </div>
+    <div class="gallery-item" data-category="snacks">
+      <img src="/images/snacks.jpg" alt="Small-chops">
+      <p>Small chops</p>
+    </div>
+    <div class="gallery-item" data-category="snacks">
+      <img src="/images/snacks3.jpg" alt="Puff Puff">
+      <p>Meatpie</p>
+    </div>
+    <div class="gallery-item" data-category="snacks">
+      <img src="/images/snacks2.jpg" alt="Puff Puff">
+      <p>Doghnuts</p>
+    </div>
+  </div>
+</section>
+
+
+ <section id="order" class="order-section">
+  <h2>Place Your Order</h2>
+  <form id="orderForm">
+    <label>Full Name:</label>
+    <input type="text" id="name" placeholder="Your name" required>
+
+    <label>Select Food:</label>
+    <select id="food" required>
+      <option value="">-- Select Food --</option>
+      <option>Jollof Rice</option>
+      <option>Egusi Soup</option>
+      <option>Suya</option>
+      <option>Zobo Drink</option>
+    </select>
+
+    <label>Quantity:</label>
+    <input type="number" id="quantity" min="1" value="1" required>
+
+    <label>Phone Number:</label>
+    <input type="tel" id="phone" placeholder="080********" required>
+
+    <button type="submit" class="btns">Submit Order</button>
+  </form>
+</section>
+
+</main>
+
+<footer class="footer ">
+  <div class="container">
+    <p>&copy; 2025 Naija Kitchen. All rights reserved.</p>
+    <p>
+      <i class="bi bi-instagram"></i> @naijakitchen &nbsp;
+      <i class="bi bi-telephone"></i> 0903-0959-063 &nbsp;
+      <i class="bi bi-envelope"></i> naijakitchen@gmail.com
+    </p>
+  </div>
+</footer>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
